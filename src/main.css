@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.job_box{
+    @apply container mx-auto bg-blue-200 p-10 flex flex-col md:flex-row justify-start md:justify-between md:items-center py-8 my-16 rounded-xl border-l-4 border-blue-600  gap-6 md:gap-0;
+}
+.job_content{
+    @apply w-full relative md:static flex justify-start md:justify-start items-center gap-8 border-b-2 md:border-none border-gray-400 py-4;
+
+}
